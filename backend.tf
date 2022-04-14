@@ -3,6 +3,6 @@ terraform {
     bucket         = "backend-lock-state"
     key            = "tf_work"
     region         = "ap-south-1"
-    dynamodb_table = "terraform-state"
+    dynamodb_table = "backend_demo"
   }
 }
