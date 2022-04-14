@@ -2,7 +2,7 @@ variable "security_group_name" {
   type = map(any)
   default = {
     "default" = "default-workspace-sg"
-    "dev"     = "dev-workspsace-s"
+    "dev"     = "dev-workspsace-sg"
     "qa"      = "qa-workspace-qa"
     "staging" = "staging-workspace-qa"
   }
